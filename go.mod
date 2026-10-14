@@ -1,10 +1,10 @@
 module github.com/jurteam/keyshtool
 
-go 1.20
+go 1.26.0
 
 require (
 	github.com/hashicorp/vault v1.14.3
-	golang.org/x/term v0.15.0
+	golang.org/x/term v0.47.0
 )
 
-require golang.org/x/sys v0.15.0 // indirect
+require golang.org/x/sys v0.49.0 // indirect
